@@ -1,0 +1,9 @@
+from selenium import webdriver
+
+# 999666
+driver = webdriver.Firefox()
+driver.get('https://www.baidu.com')
+
+print(driver.title)
+
+driver.quit()
